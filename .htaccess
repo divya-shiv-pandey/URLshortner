@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^short/(.*)$ short.php?url=$1 [L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?code=$1 [L,QSA]
