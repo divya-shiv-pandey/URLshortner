@@ -1,4 +1,4 @@
-#Url Shrortener
+# Url Shrortener
 
 SETUP:
 1) database.sql:
