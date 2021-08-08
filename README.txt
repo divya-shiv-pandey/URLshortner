@@ -1,5 +1,4 @@
-
-Created for MayaData hackathon on 19/04/2021 by Divya Shiv Pandey(1805120-KIIT)
+#Url Shrortener
 
 SETUP:
 1) database.sql:
